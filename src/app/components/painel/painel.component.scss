@@ -1,6 +1,19 @@
 header {
-  color: rgb(220, 220, 220);
-  height: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  height: 3vh;
   width: 100%;
+  color: black;
+  color: rgb(220, 220, 220);
+  background-image: url(../../../assets/images/painel-texture.jpg);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: center;
+
+  .hour {
+    font-size: 18px;
+  }
 }
 
