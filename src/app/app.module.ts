@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
+import { PainelComponent } from './components/painel/painel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroSectionComponent
+    HeroSectionComponent,
+    PainelComponent
   ],
   imports: [
     BrowserModule,
